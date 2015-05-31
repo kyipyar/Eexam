@@ -1,0 +1,418 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+a:link {
+	color: #356011;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #353535;
+}
+
+a:visited {
+	color: #356011;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body
+{
+
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+	background: #6d8835 url(../images/bg.gif) repeat-x;
+}
+
+#bg{
+	background:url(../images/bgtop.jpg) no-repeat center top;
+}
+
+#main
+{
+margin: 0 auto;
+width: 778px;
+background: #e3fdac;
+border-right: 10px solid #e3fdac;
+border-left: 10px solid #e3fdac;
+}
+
+#header
+{
+width: 778px;
+margin: 0 auto;
+height: 250px;
+background: url(../images/header.jpg) no-repeat center bottom;
+border-bottom: 8px solid #e3fdac;
+}
+
+#logo
+{
+padding-left: 40px;
+text-align: left;
+padding-top: 120px;
+height: 237px;
+}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+#logo H2 a
+{
+font-size: 10px;
+}
+
+#buttons
+{
+	width: 778px;
+	height: 62px;
+	margin: 0 auto;
+	background: url(../images/menu.gif) repeat-x;
+}
+
+#buttons ul {
+    padding-left: 80px;
+    margin: 0px;      
+}
+
+#buttons li {
+	display: inline;		
+}
+
+#buttons a {
+	display: block;
+	float: left;
+	width: 115px;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 22px;
+	margin-right: 5px;
+}
+
+#buttons a:hover {
+	width: 115px;
+    height: 40px;
+	background: url(../images/menu_hover.gif) repeat-x;
+}
+
+#content
+{
+width: 768px;
+padding: 5px;
+}
+
+#content_bg{
+	background: #e3fdac url(../images/content_bg.gif) repeat-x top;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-top: 1px solid #e3fdac;
+}
+
+#left
+{
+width: 470px;
+padding: 10px;
+background: #E2FDAF;;
+border: 1px solid #3a6611;
+height:600px;
+color:black;
+}
+
+.text{
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+#left H1, #left H2
+{
+text-shadow: 2px 2px #00ff00;
+color: black;
+font-weight:bold;
+font-size: 26px;
+border:1px solid;
+font-family:Georgia, "Times New Roman", Times, serif;
+padding-top: 10px;
+padding-left: 10px;
+background: url(../images/title_left.gif) no-repeat;
+font-weight:normal;
+text-align:center;
+border-radius:8px;
+border-size:0px;
+blur-radius:14px;
+
+     background-color: #98;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:8px;
+    border-size:0px;
+    blur-radius:14px;
+    vertical-position:10px;
+    horizontal-position:0px;
+    vertical-position:1px;
+
+}
+
+.post{
+	color: #356011;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#left a
+{
+ color: #356011;
+}
+
+#left a:hover{
+	text-decoration: none;
+	color: #353535;
+}
+
+#left a:visited {
+	color: #356011;
+}
+
+.date {
+	
+	margin: 0 auto;
+	color: #356011;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-top: 1px solid #356011;
+	font-weight:bold;
+}
+
+.date a {
+	color: #356011;
+	text-decoration:none;
+}
+
+.dateleft{
+	background:url(../images/comment.gif) no-repeat;
+	padding-left: 30px;
+	height: 16px;
+	margin-top: 2px;
+	width:200px;
+	margin-left: 120px;
+	width: 130px;
+}
+
+.dateright{
+	margin-top: 2px;
+	background:url(../images/timeicon.gif) no-repeat left;
+	padding-left: 25px;
+	height: 16px;
+	float: left;
+
+}
+
+
+#right
+{
+width: 257px;
+padding-right: 7px;
+padding-top: 7px;
+padding-bottom: 7px;
+float:right;
+}
+
+#right ul 
+{
+	list-style: none;
+	display:block;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#right ul li{
+	margin-bottom: 20px;
+	height: 24px;
+}
+
+#archives ul li {
+	margin-bottom: 5px;
+	background:url(../images/list_style.gif) no-repeat left;
+	padding-left: 15px;
+
+}
+
+#right h2 {
+	height: 34px;
+	background: url(../images/title_right.gif) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+	text-align:center;
+	padding-top: 12px;
+	font-weight: normal;
+}
+
+#right a{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-family: 12px;
+	font-weight: bold;
+}
+
+#right a:hover {
+	text-decoration: underline;
+}
+
+#right li a {
+	padding-left: 10px;
+	background: url(../images/img09.gif) no-repeat;
+}
+
+#footer
+{
+	background: url(../images/footer.gif) repeat-x;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	text-align: center;
+	clear:both;
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
+
+//staff
+
+
+
+#stdtable th{ margin:50px;
+			 text-align:left:
+			}
+
+#stdRegTable {
+	margin-left:50px;
+	margin-top:5px;
+	margin-bottom:10px;
+	height:400px;
+	}
+	
+#stdRegTable th{
+	text-align:right;
+	}
+
+#stdLink{background-color:#E2FDAF;
+		text-align:left;
+		font-weight:bold;
+		width:200px;}
+	
+#stdLink:hover{background-color:green;
+				cursor:pointer;
+				color:white;}
+
+#errmsg{
+	color:red;
+	font-size:9pt;
+}
+				
+#submitBtn{
+	
+	border-style: 4px solid outset;
+	border-color:black;
+	color:white;
+	cursor:pointer;
+	background-color:black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:8px;
+    border-size:0px;
+    blur-radius:14px;
+    vertical-position:15px;
+    horizontal-position:0px;
+    vertical-position:1px;
+    cursor:pointer; 
+    font-size:14px;
+      
+   
+}
+
+#submitBtn:hover{
+	background-color: #69C;
+	color:white;
+	
+}
+
+#textBox{
+	border: 1px solid #c4c4c4; 
+    height: 25px; 
+    width: 150px; 
+    font-size: 13px; 
+    padding: 4px 4px 4px 4px; 
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    box-shadow: 0px 0px 8px #d9d9d9; 
+    -moz-box-shadow: 0px 0px 8px #00ff00; 
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9; 
+}
+
+#txtBox{border:1px dotted #aeaeae;}
+
+#PF_Table th{ border:1px solid black;
+			border-collapse: collapse;
+			background-color:#aaff00;}
+
+
+}
+#text{
+	padding-top: 5px;	
+	padding-bottom: 30px;
+}
+#box{
+	border: 1px solid gray;	
+	  }
+#start:hover{
+	background-color:green;
+				cursor:pointer;
+				color:white;}
+	
+
+}
+#aa{
+	text-align:left;}
+	
+#submitBtn:hover{
+	background-color: #69C;
+	color:white;
+	
+}
+#sittingeaxm{
+	height:500px;
+	overflow:scroll;
+	}
+	
